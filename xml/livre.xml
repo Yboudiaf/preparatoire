@@ -1,0 +1,37 @@
+<?xml version="1.0"?> 
+<livre>bdj
+    <section>  boulangerie
+        <chapitre>viennoiserie
+            <paragraphe>La viennoiserie est synonyme de boulangerie de luxe , fine ou de fantaisie .
+                On appelle viennoiseries les produits de boulangerie dont la technique de fabrication se rapproche de celle du pain ou de la pâte feuilletée, mais auxquels leurs ingrédients donnent un caractère plus gras et plus sucré qui les rapproche de la pâtisserie (œufs, beurre, lait, crème, sucre, etc.)
+                <auteur>Moi</auteur>
+                <nom>boudiaf</nom>
+                <prenom>yacine</prenom>
+            </paragraphe>
+        </chapitre>
+        <chapitre>pain
+            <paragraphe>Le pain est l'aliment de base traditionnel de nombreuses cultures. Il est fabriqué à partir de farine et d'eau et contient généralement du sel.
+                <auteur>Moi</auteur>
+                <nom>boudiaf</nom>
+                <prenom>yacine</prenom>
+            </paragraphe>
+        </chapitre>
+    </section>
+
+    <section>patisserie
+        <chapitre>buche
+            <paragraphe>La bûche pâtissière est le dessert incontournable de Noël. Le biscuit est roulé et garni d'une crème pâtissière ou mousseline. Pour le parfum, marron, vanille, citron, chocolat, le choix est difficile !
+                <auteur>moi</auteur>
+                <nom>boudiaf</nom>
+                <prenom>yacine</prenom>
+            </paragraphe>
+        </chapitre>
+        <chapitre>les glaces
+            <paragraphe>La glace est l'eau (de formule chimique H2O) lorsqu'elle est à l'état solide. Cet élément est très étudié dans la nature et en laboratoire, par les scientifiques, à commencer par les glaciologues, les physiciens de la matière condensée et autres cryologues de spécialités différentes 
+                <auteur>Moi</auteur>
+                <nom>boudiaf</nom>
+                <prenom>yacine</prenom>         
+            </paragraphe>
+        </chapitre>
+    </section>
+</livre>
