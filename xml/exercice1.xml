@@ -1,0 +1,32 @@
+<?xml version="1.0"?> 
+<livre>bdj
+    <section>  boulangerie
+        <chapitre>viennoiserie
+            <paragraphe>
+                <auteur>Moi</auteur>
+                <nom>boudiaf</nom>
+                <prenom>yacine</prenom>
+            </paragraphe>
+        </chapitre>
+        <chapitre>
+            <paragraphe>
+
+            </paragraphe>
+        </chapitre>
+    </section>
+
+    <section>patisserie
+        <chapitre>buche
+            <paragraphe>
+                <auteur>moi</auteur>
+                <nom>boudiaf</nom>
+                <prenom>yacine</prenom>
+            </paragraphe>
+        </chapitre>
+        <chapitre>
+            <paragraphe>
+                            
+            </paragraphe>
+        </chapitre>
+    </section>
+</livre>
