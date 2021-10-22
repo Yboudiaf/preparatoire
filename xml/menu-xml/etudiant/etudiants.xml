@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<etudiants>
+    <formation id="Concepteur d'applications mobiles" debut="25/04/2022" fin="25/08/2022"> 
+    <duree temps="mois">16</duree>
+        <etudiant nom="boudiaf" prenom="yacine" naissance="20/01/1984" mail="yacyac1313@outlook.fr"></etudiant>
+    </formation>
+</etudiants>
