@@ -8,62 +8,43 @@
 
 
 <restaurant>mille et une merveille
-    <menu>30 euros
-        <entrées> Figues rôties au chèvre.
-             <plats>Patatas bravas
-                 <fromage>feuille de chévre
-                      <desssert>Piononos de Grenade, Andalousie
-
-                     </desssert>
-                 </fromage>
-            </plats>
+    <menu>
+        <prix>30 euros</prix>
+        <entrées> 
+            <entree>Figues rôties au chèvre.</entree>
+            <entree>Tajine jben (tajine au fromage)</entree>
+            <entree> Saint-Jacques et la poitrine fumée></entree>
         </entrées>
-    <entrées> Tajine jben (tajine au fromage)
-        <plats>Paella
-            <fromage>
-                 <desssert>Refollau d’Ayerbe, Aragon
-
-                 </desssert>
-            </fromage>
+        <plats>
+            <plat>Patatas bravas</plat>
+            <plat>Paella</plat>
+            <plat>Gazpacho</plat>
         </plats>
-    </entrées>
-        <entrées>La Saint-Jacques et la poitrine fumée
-             <plats>Gazpacho
-                 <fromage> feuille de chévre
-                     <desssert>Carbayón, Asturies
-
-                     </desssert>
-                </fromage>
-            </plats>
-    </entrées>
+            <fromage>feuille de chévre</fromage>
+            <desserts>
+                 <desssert>Piononos de Grenade, Andalousie</desssert>
+                 <desssert>Ramequins fondants au chocolat.</desssert>
+                 <desssert>Tiramisu (recette originale)</desssert>
+            </desserts> 
     </menu>
-
     <menu>20 euros
-        <entrées>Truite grillée au thym et aux herbes
-            <plats>
-                <desssert>Polvito uruguayo, Îles Canaries
-
-                </desssert>
-            </plats>
+        <entrées> 
+            <entree>Figues rôties au chèvre.</entree>
+            <entree>Tajine jben (tajine au fromage)</entree>        
         </entrées>
-        <entrées> Soufflé au fromage facile et rapide.
-            <plats>
-                <desssert>Ensaimada, Îles Baléares
-
-                </desssert>
-            </plats>
-        </entrées>
+        <plats>
+            <plat>Patatas bravas</plat>
+            <plat>Paella</plat>          
+        </plats>   
+            <desserts>
+                 <desssert>Piononos de Grenade, Andalousie</desssert>
+                 <desssert>Ramequins fondants au chocolat.</desssert>               
+            </desserts>
     </menu>
-
-    <menu>15 euros
-        <entrées> Tomates farcies simples
-            <plats>Jamón Ibérico
-                <dessert>Sobaos, Cantabrie
-
-
-                </dessert>
-            </plats>
-        </entrées>
-     
+        <menu>15 euros
+       
+            <entree>Tajine jben (tajine au fromage)</entree>
+            <plat>Paella</plat>          
+            <desssert>Piononos de Grenade, Andalousie</desssert>                    
     </menu>
 </restaurant>
