@@ -1,0 +1,62 @@
+<?xml version="1.0"?> 
+<menu>
+    <entrées> 
+        <entree nom="rotie" prix="20" description="8 figues
+        120 g de chèvre en bûche
+        4 c. à soupe de miel liquide
+        Quelques brins de thym
+        Sel
+        Poivre"></entree>
+        <entree nom="Tajinejben" prix="15" description=" 1 gros blanc de poulet,125 g de gruyère râpé,150 ml de lait,100 g d’olives vertes dénoyautées,5 œufs"></entree>        
+    </entrées>
+    <plats>
+        <plat nom="Patatas bravas" prix="7" description="700g Pommes de terre
+        5Tomates
+        1Petit poivron orange(ou jaune)
+        1 Oignon
+        1 Pointe de piment
+        1 gousse Ail
+        6 cl Huile d’olive
+        Sel
+        Poivre
+        Calories = Elevé"></plat>
+        <plat nom="paella" prix="6" description="8 s	Cuisses De Poulet
+        16 s	Langoustine
+        200 grams	Chorizo
+        2 s	Oignon
+        1	Bouquet Garni
+        200 grams	Petit Pois
+        1	Boite Fond D'artichauts
+        400 grams	Riz
+        1	Verre Huile D'olive
+        200 grams	Calamar
+        1	Verre Vin Blanc
+        add	Sel
+        add	Poivre
+        add	Epices Paella
+        200 grams	Moules"></plat>
+        <plat nom="gaspacho" prix="5" description="Ingrédients (12)
+        1	Concombre
+        6 s	Tomates
+        1	Poivron Vert
+        2 s	Oignons (nouveaux)
+        1	Gousse Ail
+        8 s	Brins De Ciboulette
+        200 grams	Mie De Pain Rassis
+        1	Cuil (a cafe Vinaigre de Xeres)
+        2 s	Cuil (a soupe Huile d’olive)
+        1	Pincee Piment
+        add	Sel
+        add	Poivre"></plat>
+    </plats>
+    <desserts>
+        <desssert nom="Piononos de Grenade, Andalousie" prix="5.50" description="Composée de petites graines rouges de la taille du maïs, la grenade est un fruit exotique à la fois sucré, acidulé et excellent pour la santé puisqu'il réduit les risques de maladies cardiaques. La technique la plus simple pour savourer la grenade est de la couper en deux et de déguster les graines rosées avec une cuillère, à même le fruit."></desssert>
+        <desssert nom="Ramequins fondants au chocolat" prix="4.50" description="125 grams	De Pistoles De Chocolat Noir Intense (70%)
+        100 grams	De Beurre
+        3 s	Oeufs (g)
+        125 grams	De Sucre Semoule
+        50 grams	De Farine
+        2 cups	Soupe De Beurre Pommade
+        2 cups	Soupe De Sucre Cristallise"></desssert>               
+   </desserts>
+</menu>
