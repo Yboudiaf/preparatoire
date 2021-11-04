@@ -2,95 +2,101 @@
 <offres-emplois>
 <Développeur-PHP >
     <la-ville>Paris</la-ville>         
-        <description>Au sein du pôle RD Informatique de la galerie Perrotin, le.la développeur.se PHP / jQuery (H/F) travaillera à faire évoluer et créer des outils innovants. En lien direct avec le directeur du service et en relation étroite avec les équipes de la galerie, ce poste est basé à Paris, et à pourvoir à plein temps. L’équipe R-D Informatique est en plein développement, elle se compose aujourd’hui de 1 CTO, 5 dev, 1 UX designer,1 intégrateur, 3 IT</description>
-<listes-competences>Vous maîtrisez :
-    <Langages> PHP</Langages>
-    <bibliotheque> jQuery</bibliotheque> 
-    <bibliotheque> JS </bibliotheque>
-    <bibliotheque> Bootstrap</bibliotheque>
-    <bibliotheque> Twig</bibliotheque>
-    <programation> objet</programation>        
-    <Bases-de-données> MySQL</Bases-de-données>
-</listes-competences>  
-<Qualités-requises>De nature proactive et autonome, vous avez pour souci de délivrer un travail de qualité. Vous appréciez de pouvoir réaliser un projet de bout en bout. Vous faites preuves de bonnes capacités de communication et appréciez le travail en équipe.</Qualités-requises>
+        <description>Au sein du pôle RD Informatique de la galerie Perrotin
+            , le.la développeur.se PHP / jQuery (H/F) travaillera à faire évoluer 
+            et créer des outils innovants. En lien direct avec le directeur du service 
+            et en relation étroite avec les équipes de la galerie, ce poste est basé à Paris,
+             et à pourvoir à plein temps. L’équipe R-D Informatique est en plein développement,
+              elle se compose aujourd’hui de 1 CTO, 5 dev, 1 UX designer,1 intégrateur, 3 IT 
+        </description>
+
+    <listes-competences>Vous maîtrisez :
+        <Langages> PHP</Langages>
+        <bibliotheque> jQuery</bibliotheque> 
+        <bibliotheque> JS </bibliotheque>
+        <bibliotheque> Bootstrap</bibliotheque>
+        <bibliotheque> Twig</bibliotheque>
+        <programation> objet</programation>        
+        <Bases-de-données> MySQL</Bases-de-données>
+    </listes-competences> 
+      
+    <Qualités-requises>
+    De nature proactive et autonome, vous avez pour souci de délivrer un travail de qualité. 
+    Vous appréciez de pouvoir réaliser un projet de bout en bout. 
+    Vous faites preuves de bonnes capacités de communication et appréciez le travail en équipe.
+    </Qualités-requises>
     <debut>dés que possible</debut>
-        <salaire-annuelle>26k à 36k</salaire-annuelle>
-            <adresse-mail>Estjob</adresse-mail>                                    
-</Développeur-PHP>  
+    <salaire-annuelle>26k à 36k</salaire-annuelle>
+    <adresse-mail>Estjob</adresse-mail>                                    
+</Développeur-PHP> 
+
 <Développeur-JAVA> 
-    <la-ville>mulhouse
-                    <description>
+    <la-ville>mulhouse                 
+        <missions> Vos missions seront les suivantes :
+              <mission>- Analyse technique de la demande formulée par le PO.</mission>
+              <mission> - Développement de la partie front/end du besoin.</mission>
+              <mission> - Réalisation des tests.</mission>
+              <mission> - Rédaction de la documentation technique.</mission>
+        </missions> 
 
-
-<missions> Vos missions seront les suivantes :
-    <mission>- Analyse technique de la demande formulée par le PO.</mission>
-    <mission> - Développement de la partie front/end du besoin.</mission>
-    <mission> - Réalisation des tests.</mission>
-    <mission> - Rédaction de la documentation technique.</mission>
-    Il participe aussi :
-<participations>
+        <participations> Il participe aussi :
             <participation>Au support technique des sites internet</participation>
             <participation>Aux corrections des problèmes remontés</participation>
             <participation>À la mise à jour des sites connexes</participation>
-</participations>
-</missions>    
-<listes-competences>
-    <competence>De formation informatique </compétence>
-    <competence> Developpeur web</compétence>
-    <compétence> mobile</competence>
-Connaissances nécessaires
-<languages>
-    <language>web</language>
-    <language> xml</language>
-    <language> html</Langages>
-    <language> css</language>
-    <language> PHP</language>
-</languages>
- en fonction d'API type REst
-<Type-d-emploi> : Temps plein, CDI</Type-d-emploi>
-                            <debut>des que possible
-                                 <salaire-annuelle>à definir 
-                                    <adresse-mail>
-                                     </adresse-mail>
-                                 </salaire-annuelle>
-                            </debut>
-                        </listes-competences>
-                    </description>
+        </participations>
+  
+        <listes-competences> Connaissances nécessaires
+            <competence>De formation informatique </competence>
+            <competence> Developpeur web</competence>
+            <competence> mobile</competence>
+        </listes-competences> 
+
+        <languages>en fonction d'API type REst
+            <language>web</language>
+            <language> xml</language>
+            <Language> html</Language>
+            <language> css</language>
+            <language> PHP</language>
+        </languages>
+ 
+        <Type-d-emploi> : Temps plein, CDI
+                    <debut>des que possible   </debut>
+                    <salaire-annuelle>à definir    </salaire-annuelle>
+                    <adresse-mail></adresse-mail>
+                    
+        </Type-d-emploi>                                         
                  </la-ville>
-    </Développeur-JAVA>
+</Développeur-JAVA>
                
-        <Développeur-NodeJS>
-                 <la-ville>toulouse
-                    <description>
-- Vous rejoindrez une équipe technique d'une vingtaine de personnes. (Développeurs web et mobiles, UX Designer, ingénieurs réseaux, QA...).
-- Vous travaillerez plus particulièrement au sein du pôle web, avec 7 développeurs.
-- Vous interviendrez sur toutes les étapes du développement et prendrez part aux rituels agiles.
-- Vous interviendrez sur les développements web des 4 produits, dans un contexte de forte charge et de volumétrie.
-- Vous développerez des web services Api Rest robustes et performants.
-- Vous accompagnerez les profils plus juniors et les aiderez à monter en compétence, dans un esprit bienveillant et collaboratif.
-- Vous serez force de proposition sur les améliorations à apporter à l'existant.
-- Vous garantirez un haut niveau de performance et de qualité.
+<Développeur-NodeJS>
+    <la-ville>toulouse</la-ville>
+        <description>
+                       - Vous rejoindrez une équipe technique d'une vingtaine de personnes. (Développeurs web et mobiles, UX Designer, ingénieurs réseaux, QA...).
+                       - Vous travaillerez plus particulièrement au sein du pôle web, avec 7 développeurs.
+                       - Vous interviendrez sur toutes les étapes du développement et prendrez part aux rituels agiles.
+                       - Vous interviendrez sur les développements web des 4 produits, dans un contexte de forte charge et de volumétrie.
+                       - Vous développerez des web services Api Rest robustes et performants.
+                       - Vous accompagnerez les profils plus juniors et les aiderez à monter en compétence, dans un esprit bienveillant et collaboratif.
+                       - Vous serez force de proposition sur les améliorations à apporter à l'existant.
+                       - Vous garantirez un haut niveau de performance et de qualité.Stack techniqueMéthode agile:toutes les cérémonies sont respectées                        
+                        Code review, peerprogramming, conception participative.
 
-Stack technique
-
-Méthode agile : toutes les cérémonies sont respectées
-
-Code review, peerprogramming, conception participative.
-
-
-
-                        <listes-competences>Vous êtes un développeur expérimenté/sénior.
-
-Nous recherchons un développeur back-end Node JS et un développeur fullstack Node JS / React JS,Architecture micro-services, Node JS, React/Redux/NextJS/MariaDB, MongoDB, GO, Redis, AWS, Docker, Jira...
-                            <debut>des que possible
-                                 <salaire-annuelle>50k-70k
-                                    <adresse-mail>Edtjob
-                                     </adresse-mail>
-                                 </salaire-annuelle>
-                            </debut>
-                        </listes-competences>
-                    </description>
-                 </la-ville>
+        </description>
+       
+            <listes-competences>
+                       Vous êtes un développeur expérimenté/sénior.
+                       Nous recherchons un développeur back-end Node JS et un développeur fullstack Node JS
+                       / React JS,Architecture micro-services, Node JS, React/Redux/NextJS/MariaDB, MongoDB,
+                       GO, Redis, AWS, Docker, Jira...
+                <debut>des que possible </debut>
+                <salaire-annuelle>50k-70k</salaire-annuelle>
+                <adresse-mail>Edtjob </adresse-mail>
+                                    
+                                 
+                           
+            </listes-competences>
+                    
+                 
         </Développeur-NodeJS>
        
 </offres-emplois>
