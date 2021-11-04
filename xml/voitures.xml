@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<voitures>
+    <voiture>
+        <marque>audi</marque>
+            <type>a3</type>
+</voiture>
+<voiture>
+        <marque>mercedes</marque>
+            <type>amg</type>
+</voiture>
+<voiture>
+<marque>bmw</marque>
+            <type>m4</type>
+</voiture>
+ <voiture>            
+        <marque>porsche</marque>
+            <type>cayenne</type>
+</voiture>
+</voitures>
