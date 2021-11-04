@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<crepes>
-<crepe>recette</crepe><recette>oeuf,sucre de semoule,sel,farine de froment,beurre salée et du lait</recette>
+<crepes>crepes bretonnes
+    <crepe>recette</crepe>
+            <recettes>
+                 <recette>Versez la farine</recette> .
+                 <recette>le sucre et le sel dans un saladier</recette>
+                 <recette>Ajoutez le lait puis 100 ml d'eau progressivement, tout en fouettant.</recette>
+                 <recette>Faites fondre le beurre au micro-ondes, puis incorporez-le à la pâte.</recette>
+                 <recette>Finissez par les oeufs. Mélangez.</recette>
+                 <recette>Laissez la pâte à crêpes reposer pendant 30 à 45 min au frais.</recette>
+                 <recette>Graissez une poêle avec une noisette de beurre, puis versez une louche de pâte.</recette>
+                 <recette>Faites cuire chaque crêpe environ 2 min par face.</recette>
+            </recettes>
+
+            <ingredients>
+                 <ingredient>oeuf</ingredient>
+                 <ingredient>semoule</ingredient>
+                 <ingredient>farine</ingredient>
+                 <ingredient>beurre salée</ingredient>
+                 <ingredient>lait</ingredient>
+            </ingredients>      
 </crepes>
