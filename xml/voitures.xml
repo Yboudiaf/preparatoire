@@ -2,18 +2,42 @@
 <voitures>
     <voiture>
         <marque>audi</marque>
-            <type>a3</type>
+        <type-de-vehicule>rs3</type-de-vehicule>
+        <annee>2021</annee>
+        <Kilométrage>10 000</Kilométrage>
+        <Carburant>diesel</Carburant>
+        <Couleur>gris</Couleur>
+        <Boîte-de-vitesse>Manuelle</Boîte-de-vitesse>
 </voiture>
+
 <voiture>
         <marque>mercedes</marque>
-            <type>amg</type>
+        <type-de-vehicule>amg</type-de-vehicule>
+        <annee>2020</annee>
+        <Kilométrage>45 200</Kilométrage>
+        <Carburant>essence</Carburant>
+        <Couleur>bleu</Couleur>
+        <Boîte-de-vitesse>Manuelle</Boîte-de-vitesse>
 </voiture>
+
 <voiture>
-<marque>bmw</marque>
-            <type>m4</type>
+         <marque>bmw</marque>
+         <type-de-vehicule>m4</type-de-vehicule>
+         <annee></annee>
+         <Kilométrage>12 500</Kilométrage>
+         <Carburant>diesel</Carburant>
+         <Couleur>verte</Couleur>
+         <Boîte-de-vitesse>auto</Boîte-de-vitesse>
 </voiture>
+
  <voiture>            
         <marque>porsche</marque>
-            <type>cayenne</type>
+        <type-de-vehicule>cayenne</type-de-vehicule>
+        <annee>2021</annee>
+        <Kilométrage>31 000</Kilométrage>
+        <Carburant>essence</Carburant>
+        <Couleur>noir</Couleur>
+        <Boîte-de-vitesse>Manuelle</Boîte-de-vitesse>
 </voiture>
+
 </voitures>
