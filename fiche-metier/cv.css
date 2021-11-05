@@ -5,11 +5,12 @@ body,html{
 }
 header{
   
- border: solid;   
+  
 }
-img{
+header img{
     width: 150px;
     height: 150px;
+    float: right;
  
     
 }
@@ -17,13 +18,13 @@ header h1{
     letter-spacing: 5px;
     font-size: 56px;
     color: red;
-    margin-left: 300px auto;
-    margin-right: 300px auto;
+    margin-left: 300px ;
+    margin-right: 300px ;
 }
 
 h1{
-    margin-left: 300px auto;
-    margin-right: 300px auto;
+    margin-left: 300px ;
+    margin-right: 300px ;
     text-align: center;
     font-style: normal;
     font-weight: bolder;
@@ -34,8 +35,8 @@ h1{
    
 }
 h2{
-    margin-left: 300px auto;
-    margin-right: 300px auto;
+    margin-left: 300px;
+    margin-right: 300px ;
     text-align: center;
     font-size: 26px;
     color: blue;
@@ -45,11 +46,13 @@ h2{
         */
 
 main{
-  
+   box-sizing:120px ;
+   border: solid;
 }
+
 h3{
-    margin-left: 300px auto;
-    margin-right: 300px auto;
+    margin-left: 300px ;
+    margin-right: 300px ;
     text-align: center;
     font-size: 26px;
     color: blue;
@@ -57,8 +60,8 @@ h3{
 
 }
 h4{
-    margin-left: 300px auto;
-    margin-right: 300px auto;
+    margin-left: 300px ;
+    margin-right: 300px ;
     text-align: center;
     font-size: 26px;
     color: blue;
@@ -66,19 +69,19 @@ h4{
 
 }
 footer{
-    margin-left: 300px auto;
-    margin-right: 300px auto;
-    border: solid;
+    text-align:center;
 }
 h1{
-    margin-left: 300px auto;
-    margin-right: 300px auto;
+    margin-left: 300px;
+    margin-right: 300px;
     text-align: center;
     color: blue;
-    border: solid;
+    
 }
-img{
-   
-    width: 100px;
-    height: 100px;
+footer img{
+   border: solid;
+    width: 80px;
+    height: 80px;
+    
+    
 }
