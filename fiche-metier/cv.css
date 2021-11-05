@@ -1,0 +1,84 @@
+body,html{
+ 
+
+
+}
+header{
+  
+ border: solid;   
+}
+img{
+    width: 150px;
+    height: 150px;
+ 
+    
+}
+header h1{
+    letter-spacing: 5px;
+    font-size: 56px;
+    color: red;
+    margin-left: 300px auto;
+    margin-right: 300px auto;
+}
+
+h1{
+    margin-left: 300px auto;
+    margin-right: 300px auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 26px;
+    color: blue;
+    border: solid;
+
+   
+}
+h2{
+    margin-left: 300px auto;
+    margin-right: 300px auto;
+    text-align: center;
+    font-size: 26px;
+    color: blue;
+    border: solid;
+}
+        /*.........................EN-TETE............................../*
+        */
+
+main{
+  
+}
+h3{
+    margin-left: 300px auto;
+    margin-right: 300px auto;
+    text-align: center;
+    font-size: 26px;
+    color: blue;
+    border: solid;
+
+}
+h4{
+    margin-left: 300px auto;
+    margin-right: 300px auto;
+    text-align: center;
+    font-size: 26px;
+    color: blue;
+    border: solid;
+
+}
+footer{
+    margin-left: 300px auto;
+    margin-right: 300px auto;
+    border: solid;
+}
+h1{
+    margin-left: 300px auto;
+    margin-right: 300px auto;
+    text-align: center;
+    color: blue;
+    border: solid;
+}
+img{
+   
+    width: 100px;
+    height: 100px;
+}
