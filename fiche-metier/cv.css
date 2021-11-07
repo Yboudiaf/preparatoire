@@ -1,87 +1,133 @@
 body,html{
- 
+font-size: 12px 1px 1px;
+background-color: beige;
+text-transform: capitalize;
 
 
 }
 header{
-  
-  
+  margin-left: 50px;
+  margin-top: 0px;
+
 }
 header img{
+    
     width: 150px;
     height: 150px;
     float: right;
+    border: solid 5px;
  
     
 }
 header h1{
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 180px;
+    text-transform: capitalize;
+    width: 50%;
     letter-spacing: 5px;
-    font-size: 56px;
+    font-size: 26px;
     color: red;
-    margin-left: 300px ;
-    margin-right: 300px ;
-}
+    border-radius: 100px 100px;
+    background-color: gainsboro;
+    border: none;
+ }
+select{
+   
+   position:absolute;
+   top: 40px;
+   left: 30px;
 
+
+}
+p1 li{
+    background-color: gainsboro;
+}
 h1{
+    margin: 50px;
     margin-left: 300px ;
     margin-right: 300px ;
     text-align: center;
     font-style: normal;
     font-weight: bolder;
-    font-size: 26px;
+    font-size: 20px;
     color: blue;
     border: solid;
+    background-color: gainsboro;
 
    
 }
 h2{
+  margin: 50px;
     margin-left: 300px;
     margin-right: 300px ;
     text-align: center;
-    font-size: 26px;
+    font-size: 20px;
     color: blue;
     border: solid;
+    background-color: gainsboro;
 }
-        /*.........................EN-TETE............................../*
-        */
+        /*.........................EN-TETE..............................*/
 
 main{
+    margin: 30px;
+    margin-inline: 10px;
+    padding-inline:  10px;
    box-sizing:120px ;
-   border: solid;
+   
+}
+main h1{
+    
+    margin-top: 100px;
+    background-color: gainsboro;
 }
 
 h3{
+    margin: 50px;
     margin-left: 300px ;
     margin-right: 300px ;
     text-align: center;
-    font-size: 26px;
+    font-size: 16px;
     color: blue;
     border: solid;
+    background-color: gainsboro;
 
 }
 h4{
+    margin: 50px;
     margin-left: 300px ;
     margin-right: 300px ;
     text-align: center;
-    font-size: 26px;
+    font-size: 20px;
     color: blue;
     border: solid;
+    background-color: gainsboro;
 
 }
 footer{
     text-align:center;
 }
 h1{
+    margin: 50px;   
     margin-left: 300px;
     margin-right: 300px;
     text-align: center;
     color: blue;
+    background-color: gainsboro;
     
 }
 footer img{
    border: solid;
     width: 80px;
     height: 80px;
+    background-color: white;
     
     
+}
+h1{
+    margin-top: 50px;
+    
+}
+li{
+    background-color: rgb(240, 214, 166);
 }
