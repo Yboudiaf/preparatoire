@@ -41,6 +41,8 @@ select{
    top: 120px;
    left: 145px;
    background-color: white;
+   border: solid#7A3B69;
+
    
    
 
@@ -71,7 +73,7 @@ h2{
     font-size: 30px;
     color:#7A3B69 ;
     border: solid;
-    background-color: gainsboro;
+    background-color:rgb(240, 214, 166) ;
     border-radius: 100px 100px;
 }
                         /*.........................EN-TETE..............................*/
@@ -90,7 +92,7 @@ main{
 main h1{
     
     margin-top: 100px;
-    background-color: gainsboro;
+    background-color:rgb(240, 214, 166) ;
     border-radius: 100px 100px;
 }
 
@@ -102,7 +104,7 @@ main h3{
     font-size: 30px;
     color: #7A3B69;
     border: solid;
-    background-color: gainsboro;
+    background-color: rgb(240, 214, 166);
     border-radius: 100px 100px;
 
 }
@@ -114,7 +116,7 @@ h4{
     font-size: 30px;
     color:#7A3B69 ;
     border: solid;
-    background-color: gainsboro;
+    background-color:rgb(240, 214, 166) ;
     border-radius: 100px 100px;
 
 }
@@ -155,10 +157,19 @@ footer img{
 }
 h1{
     margin-top: 50px;
+    background-color:rgb(240, 214, 166) ;
+   
    
     
 }
+
+ul {
+    padding-left:0;
+    list-style: none;
+}
+
 li{
+    padding-left: 24px;
     margin: 5px;
     background-color: rgb(240, 214, 166);
     border-radius: 200px 200px;

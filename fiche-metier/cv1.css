@@ -1,0 +1,26 @@
+body,html{
+background-color: rgb(228, 240, 245);
+}
+header>p{
+    display: inline;
+    position: absolute;
+    right: 200px;
+    margin-top: 250px;
+   
+}
+section{
+    background-color: rgb(181, 223, 240);
+    
+}
+img{
+    width: 200px;
+    height: 220px;
+    float: right;
+    margin: 30px;
+}
+header>h1{
+  display: inline-block;
+    background-color: rgb(168, 107, 16);
+    margin-top: 2500px;
+
+}
