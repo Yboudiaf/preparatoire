@@ -33,21 +33,6 @@ public class Moyenne {
 		//moyenne<--(nombre1+nombre2)/2
 		 moyenne = (nombre1+nombre2)/2;
 		 
-		 //si (moyenne>=10) alors
-	/*	if (moyenne >=10) {
-			
-		System.out.println("vous pouvez allez en cda");
-			}
-		 //
-		 //sinon
-		 else  
-		 // moyenne <-- moyenne + 1
-		 {
-			  moyenne = moyenne+ 1;
-			  System.out.println("vous allez en boulangerie");
-			 //fin si  
-		 }
-	*/	
 	     //si (moyenne<10) alors
 		if (moyenne<10) {
 			//moyenne <--moyenne + 1
