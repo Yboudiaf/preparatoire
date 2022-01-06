@@ -14,11 +14,11 @@ public class exercice9_1 {
 		int B;
 
 		//SAISIE ET TRAITEMENT
-
+		Scanner sc = new Scanner(System.in);
 		//ECRIRE SAISISSEZ LA VALEUR A
 		System.out.println("Saisissez la valeur A");
 		//OUTIL SCANNER
-		Scanner sc = new Scanner(System.in);
+		
 		//LIRE A
 		A = sc.nextInt();
 		//ECRIRE SAISISSEZ LA VALEUR B
