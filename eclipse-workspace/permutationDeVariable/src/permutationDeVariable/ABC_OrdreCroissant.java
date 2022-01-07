@@ -68,7 +68,8 @@ public class ABC_OrdreCroissant {
 		else if(c<b && b<a) {
 			//Afficher C<B<A
 			System.out.println("C<A<B");
-
+			sc.close();
+				
 		}
 
 	}

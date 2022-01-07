@@ -7,7 +7,7 @@ public class les_boucles {
 		
 		int a;
 		
-		for(a = 1; a <= 6 ; a++ ) {
+		for(a = 1; a <= 60 ; a++ ) {
 			System.out.println("claquer dans les mains");
 		}
 	}
