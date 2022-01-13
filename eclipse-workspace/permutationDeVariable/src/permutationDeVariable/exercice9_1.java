@@ -41,8 +41,9 @@ public class exercice9_1 {
 			//AFFICHER A=B
 			System.out.println("a=b");
 
-		}
+		}sc.close();
 	}
+	
 }
 
 

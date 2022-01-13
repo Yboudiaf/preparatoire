@@ -110,7 +110,7 @@ public class Exojava2 {
 				}
 			}
 		}
-
+		sc.close();
 	}
 
 }

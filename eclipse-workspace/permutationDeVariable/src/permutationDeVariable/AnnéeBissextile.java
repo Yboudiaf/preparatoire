@@ -26,7 +26,7 @@ public class AnnéeBissextile {
 		
 		}
 			else {
-				System.out.println("l'année n'est bissextile");
+				System.out.println("l'année n'est pas bissextile");
 		}
 	sc.close();
 	}

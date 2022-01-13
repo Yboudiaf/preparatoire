@@ -19,11 +19,11 @@ public class lesBouclesDoWhile {
 			
 		
 	if(painCuit.equals("oui")) {
-		System.out.println("vous pouvez mangez le paim");
+		System.out.println("le paim est cuit et bon vous pouvez mangez bonne degustation !!");
 	}
 		else {
 			if(painCuit.equals("non")) {
-				System.out.println("le paim n'est pas encore cuit");
+				System.out.println("le paim n'est pas encore cuit patience !!");
 		}
 	}sc.close();
 	}
