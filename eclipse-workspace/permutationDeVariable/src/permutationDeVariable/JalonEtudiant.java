@@ -14,6 +14,7 @@ public class JalonEtudiant {
 		
 		System.out.println("est ce que la personne est etudiant?");
 		etudiant = sc.next();
+		
 		if (etudiant.equals("oui")) {
 			System.out.println("Est-on jeudi?");
 			jeudi = sc.next();
