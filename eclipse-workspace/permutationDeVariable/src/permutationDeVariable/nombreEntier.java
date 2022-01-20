@@ -18,7 +18,7 @@ public class nombreEntier {
 		while(n <= 2);
 		System.out.println("Les diviseurs de " +n + " sont:");
 		for(diviseur = 2; diviseur < n; diviseur++) {
-			if (n%diviseur==0) {
+			if (n % diviseur ==0) {
 				System.out.println(diviseur);
 			}
 		}
