@@ -21,7 +21,7 @@ public class nombreEntier {
 			if (n % diviseur ==0) {
 				System.out.println(diviseur);
 			}
-		}
+		}sc.close();
 	}
 
 }

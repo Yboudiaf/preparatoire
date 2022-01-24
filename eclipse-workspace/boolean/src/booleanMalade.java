@@ -20,7 +20,7 @@ public class booleanMalade {
 			else {
 				System.out.println("vous etes malade et peur etre covider merci de decaler de 2 metre ");
 			}
-		}
+		}sc.close();
 	}
 }
 
