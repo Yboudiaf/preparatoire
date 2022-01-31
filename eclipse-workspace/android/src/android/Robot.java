@@ -20,8 +20,8 @@ public class Robot {
 		positionZ=0;
 	}
 	
-	public boolean demarer() {
-		if (!enMarche) {
+	public boolean demarer() {    //fonction: il renvoie un boolean, ici true;
+		if (enMarche) {
 			enMarche = true;
 			return true;
 		} else {

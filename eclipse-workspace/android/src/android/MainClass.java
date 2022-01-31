@@ -2,7 +2,7 @@ package android;
 
 public class MainClass {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {  // procedure:ne renvpoie rien (void=rien);
 		// TODO Auto-generated method stub
 		Robot nono = new Robot();
 		if (nono.demarer()) {
