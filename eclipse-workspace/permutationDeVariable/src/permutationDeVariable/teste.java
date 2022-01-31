@@ -12,7 +12,7 @@ public class teste {
 		Scanner sc = new Scanner(System.in);
 		n = sc.nextInt();
 		diviseur = sc.nextInt();
-		while(n  diviseur);
+		while(n < diviseur);
 	}
 
 }
