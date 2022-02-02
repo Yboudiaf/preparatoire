@@ -9,14 +9,17 @@ public class conversionKmMiles {
 		float nombre;	
 		float km = 1000000;
 		double miles =1.609 ;
-		String saisie = null ;
+		String saisie ;
 		long horslimite= 1000001;
 
 		// (km < 0.01 || km > 1000000)
 		Scanner sc = new Scanner(System.in);
 		System.out.println("veuillez saisir une valeur en km");
 			saisie =sc.nextLine();
-			if(!saisie.equals("q")) {
+			if(saisie.equals("q")) {
+				
+				String saisie = Integer.parseInt(String);
+				System.out.println("programme terminer");
 				
 			}
 			//
@@ -29,11 +32,7 @@ public class conversionKmMiles {
 			System.out.println(" la saisie est: hors limite" );	
 
 
-		}
-		else if(q.equals(nombre)){
-		//	 nombre =  q ; 
-			System.out.println("programme terminer");
-
+		
 		}sc.close();
 	}
 
