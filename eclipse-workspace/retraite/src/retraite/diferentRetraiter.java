@@ -6,40 +6,45 @@ public class diferentRetraiter {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		
-		
-		
-
+		System.out.println("veuillez saisire un age");
+		int ageAtester ;
+		Scanner sc = new Scanner(System.in);
+		ageAtester = sc.nextInt();
+		 System.out.println(getRetired(ageAtester));
 		
 		
 	}//fin de main
 
-	public static String getRetired(int ageAtester) {
-		int retraite = 60;
-		int anneeDeRetraite;
-		int ageAtester ;
+	public static String getRetired(int age) {
+	
+		int anneeDeRetraite=0;
 		
 		
-		Scanner sc = new Scanner(System.in);
-		if(ageAtester < 60 && ageAtester > 0 ){
-			anneeDeRetraite = (60 - ageAtester  ) ;
-			anneeDeRetraite = sc.nextInt();
-			return "Il vous reste" + anneeDeRetraite+ "pour la retraite";
+		
+		
+		
+		if(age < 60 && age > 0 ){
+			 anneeDeRetraite = (60 - age  ) ;
+			return "Il vous reste " + anneeDeRetraite+ " ans pour arriver à la retraite";
+			
 			
 		}	
-			if(ageAtester == 60 ) {
-			return "vous ête à la retraite cette année";
+		else if(age == 60 ) {
+			return "vous êtes à la retraite cette année";
+			
 		}
-			if (ageAtester <=0) {
+		else if (age > 60)
+		{
+			anneeDeRetraite = (age - 60);
+			return "Vous êtes à la retraite depuis " + anneeDeRetraite  + " ans";
 				
-				return "vous n'ête pas  encore née";
+		}
+			else {
+				
+				return "vous n'êtes pas  encore née";
 			}
 			
-			
-			
-		
-		}
+			}
 
 	
 
