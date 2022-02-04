@@ -15,28 +15,28 @@ public class conversionKmMiles {
 		// (km < 0.01 || km > 1000000)
 		Scanner sc = new Scanner(System.in);
 		System.out.println("veuillez saisir une valeur en km");
-			saisie =sc.nextLine();
-			if(saisie.equals("q")) {
-				
-				String saisie = Integer.parseInt(String);
-				System.out.println("programme terminer");
-				
+		saisie =sc.nextLine();
+		
+		if(saisie.equals("q")) {
+			try {String saisie = (String.valueOf(saisie));												
+			}
+			catch{(String.parseInt(saisie));
 			}
 			//
-		System.out.print("La valeur de " + nombre + " en km est: ");
+			System.out.print("La valeur de " + nombre + " en km est: ");
 			miles = nombre/1.609;
-		System.out.print(miles + " miles");
+			System.out.print(miles + " miles");
 
-		boolean macondition =(horslimite < km);
+			boolean macondition =(horslimite < km);
 			if(macondition == true) {
-			System.out.println(" la saisie est: hors limite" );	
+				System.out.println(" la saisie est: hors limite" );	
 
 
-		
-		}sc.close();
-	}
 
-}
+			}sc.close();
+		}
 
+	}//fin de main
 
+}// fin de classe
 
