@@ -5,35 +5,45 @@ public class fourchette {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int nombre;
-		Random aleatoire = new Random ();
+		int nombre=0;
+		int nombreAleatoir;
 
-		System.out.println("veuillez saisir un nombre pour deviner le nombre aléatoire");
+		Random rand = new Random ();
+
+
 		Scanner sc = new Scanner(System.in); 
-		nombre = sc.nextInt();
+		
+		
+		
 
-		aleatoire.nextInt(100);
+		nombreAleatoir = rand.nextInt(100);
+	
+		 do {
+			 System.out.println("veuillez saisir un nombre");
+			 nombre = sc.nextInt();
+			
 
-		if(nombre < 50  ||  nombre >50) {
-			System.out.println("vous êtes froid");
-		}
-		else if(nombre < 25 || nombre >25) {
-			System.out.println("vous êtes tiéde");
+			 if (nombre == nombreAleatoir){
+				 System.out.println("félicitation "+nombre+" est le bon nombre");
 
-		}
-		else if(nombre < 15 || nombre >15) {
-			System.out.println("vous êtes brulant");
-		}
-		else (nombre = Random) {
-			System.out.println("félicitation "+nombre+" est le bon nombre");
+			 } else if((nombre - nombreAleatoir) <= 15 && (nombre - nombreAleatoir >=-15)) {
+				 System.out.println("votre fourchette est de (15 + ou -");
 
-			//}
-
-
-
+			 } else if((nombre - nombreAleatoir <= 25) && (nombre - nombreAleatoir >=-25)){
+				 System.out.println("votre fourchette est de (25 + ou -");
 
 
-		}
+			 } else if((nombre - nombreAleatoir <= 50) &&  (nombre - nombreAleatoir >=-50)) {
+
+				 System.out.println("votre fourchette est de (50 + ou -)") ;
+
+			 } else {
+				 System.out.println("Votre nombre est au dessus de 50");
+			 }
+
+		 }while( nombreAleatoir != nombre);
+		
+		sc.close();
 
 	}
 }
