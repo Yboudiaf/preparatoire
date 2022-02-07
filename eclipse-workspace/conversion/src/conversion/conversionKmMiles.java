@@ -5,38 +5,45 @@ import java.util.Scanner;
 public class conversionKmMiles {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		float nombre;	
-		float km = 1000000;
-		double miles =1.609 ;
-		String saisie ;
-		long horslimite= 1000001;
+
+		String saisie;
+		int valeur ;	
+		String []tableauDeConversion;
+		String uniteDeMesure ;
+		double conversion;
 
 		// (km < 0.01 || km > 1000000)
 		Scanner sc = new Scanner(System.in);
-		System.out.println("veuillez saisir une valeur en km");
-		saisie =sc.nextLine();
-		
-		if(saisie.equals("q")) {
-			try {String saisie = (String.valueOf(saisie));												
-			}
-			catch{(String.parseInt(saisie));
-			}
-			//
-			System.out.print("La valeur de " + nombre + " en km est: ");
-			miles = nombre/1.609;
-			System.out.print(miles + " miles");
+		System.out.println("veuillez saisir une valeur en miles ou km");
 
-			boolean macondition =(horslimite < km);
-			if(macondition == true) {
-				System.out.println(" la saisie est: hors limite" );	
+		saisie = sc.nextLine();
 
+		tableauDeConversion = saisie.split(" ");//"12 mi"
 
+		valeur = Integer.valueOf(tableauDeConversion[0]);
 
-			}sc.close();
+		if(tableauDeConversion.length > 1) {
+			uniteDeMesure = tableauDeConversion[1];
 		}
+		else {
+			uniteDeMesure = "km";
+		}
+		uniteDeMesure = uniteDeMesure.toLowerCase();
+		if(uniteDeMesure.equals("km")) {
+			//conversion km en miles
+			conversion =(valeur/1.609);
+			System.out.println("la distance de "+valeur+ " km vaut "+conversion+" miles");
+		}
+		else {
+			//conversion mi en km
+			conversion =(valeur*1.609);
+		}
+		sc.close();
+	} //fin de main
 
-	}//fin de main
 
-}// fin de classe
+
+}	// fin de classe
+
+
 
