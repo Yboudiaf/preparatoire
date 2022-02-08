@@ -34,9 +34,17 @@ public class conversionKmMiles {
 			conversion =(valeur/1.609);
 			System.out.println("la distance de "+valeur+ " km vaut "+conversion+" miles");
 		}
-		else {
+		else if (uniteDeMesure.equals("mile")) {
 			//conversion mi en km
 			conversion =(valeur*1.609);
+			System.out.println("la distance de "+valeur+ " miles vaut "+conversion+" km");
+		}
+		else if(uniteDeMesure.equals("q")) {
+			
+			System.out.println("programme terminer");
+			
+			
+			
 		}
 		sc.close();
 	} //fin de main

@@ -9,8 +9,6 @@ public class fourchette {
 		int nombreAleatoir;
 
 		Random rand = new Random ();
-
-
 		Scanner sc = new Scanner(System.in); 
 		
 		
@@ -26,14 +24,14 @@ public class fourchette {
 			 if (nombre == nombreAleatoir){
 				 System.out.println("félicitation "+nombre+" est le bon nombre");
 
-			 } else if((nombre - nombreAleatoir) <= 15 && (nombre - nombreAleatoir >=-15)) {
+			 } else if((nombre - nombreAleatoir) <= 15 && (nombre - nombreAleatoir >= -15)) {
 				 System.out.println("votre fourchette est de (15 + ou -");
 
-			 } else if((nombre - nombreAleatoir <= 25) && (nombre - nombreAleatoir >=-25)){
+			 } else if((nombre - nombreAleatoir <= 25) && (nombre - nombreAleatoir >= -25)){
 				 System.out.println("votre fourchette est de (25 + ou -");
 
 
-			 } else if((nombre - nombreAleatoir <= 50) &&  (nombre - nombreAleatoir >=-50)) {
+			 } else if((nombre - nombreAleatoir <= 50) &&  (nombre - nombreAleatoir >= -50)) {
 
 				 System.out.println("votre fourchette est de (50 + ou -)") ;
 
@@ -45,5 +43,5 @@ public class fourchette {
 		
 		sc.close();
 
-	}
-}
+	}//fin de main
+}//fin de classe

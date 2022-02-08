@@ -33,11 +33,11 @@ public class parfait {
 			
 			compteurDuNouveauNombreRechercher++;// ON AUGMENTE LE NOMBRE A TESTER POUR LA PROCHAINE BOUCLE
 			
-		}
+		}sc.close();
 
-	}
+	}//fin de main
 
-}
+}// fin de classe
 
 
 
