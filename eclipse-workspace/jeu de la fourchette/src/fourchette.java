@@ -36,7 +36,7 @@ public class fourchette {
 				 System.out.println("votre fourchette est de (50 +-)") ;
 
 			 } else {
-				 System.out.println("Votre nombre est au dessus de 50");
+				 System.out.println("Votre nombre est au dessus de (50 +-)");
 			 }
 
 		 }while( nombreAleatoir != nombre);
