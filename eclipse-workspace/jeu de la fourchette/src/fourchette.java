@@ -25,15 +25,15 @@ public class fourchette {
 				 System.out.println("félicitation "+nombre+" est le bon nombre");
 
 			 } else if((nombre - nombreAleatoir) <= 15 && (nombre - nombreAleatoir >= -15)) {
-				 System.out.println("votre fourchette est de (15 + ou -");
+				 System.out.println("votre fourchette est de (15 +-");
 
 			 } else if((nombre - nombreAleatoir <= 25) && (nombre - nombreAleatoir >= -25)){
-				 System.out.println("votre fourchette est de (25 + ou -");
+				 System.out.println("votre fourchette est de (25 +-");
 
 
 			 } else if((nombre - nombreAleatoir <= 50) &&  (nombre - nombreAleatoir >= -50)) {
 
-				 System.out.println("votre fourchette est de (50 + ou -)") ;
+				 System.out.println("votre fourchette est de (50 +-)") ;
 
 			 } else {
 				 System.out.println("Votre nombre est au dessus de 50");
