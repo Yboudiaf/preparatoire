@@ -12,14 +12,21 @@ public class conversion {
 		String [] tableauDeConversion;
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Saisissez une valeur entre -459,67 et 5 000 000 suivi de l'unite de temperature C pour celcius et F pour fahrenheit");
+		System.out.println("saisissez une unite de mesure C pour celcius et F pour farenheit");
+		uniteDeMesure = sc.next();
 
-		saisie = sc.nextLine();
+		
+			System.out.println("Saisissez une valeur entre -459,67 et 5 000 000 ");
+			saisie = sc.next();	
+			if(uniteDeMesure.equals("c") ); {	
+		
+		
 		tableauDeConversion = saisie.split(" ");
 		valeur = Integer.valueOf(tableauDeConversion[0]);
-
+}
 		if(tableauDeConversion.length > 1) {
 			uniteDeMesure = tableauDeConversion[1];
+
 		}
 		else {
 			uniteDeMesure = "C";
