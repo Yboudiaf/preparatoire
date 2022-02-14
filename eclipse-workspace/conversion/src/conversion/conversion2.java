@@ -5,10 +5,12 @@ public class conversion2 {
 	public static void main(String[] args) {
 
 
-		Scanner sc = new Scanner(System.in); String valeurAConvertir;
+		Scanner sc = new Scanner(System.in);
+		String valeurAConvertir;
 		String [ ] tableauDeConversion;
 		Boolean go = false;
-		int index = 0; tableauDeConversion = new String[100 ]; do {
+		int index = 0;
+		tableauDeConversion = new String[100 ]; do {
 			System.out.println("Veuillez saisir une valeur à convertir svp.");
 			valeurAConvertir = sc.nextLine();
 			if (valeurAConvertir.equals("go")) {
