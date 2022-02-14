@@ -1,5 +1,5 @@
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
+//import java.util.Scanner;
 
 public class fourchette {
 
@@ -11,35 +11,43 @@ public class fourchette {
 		Random rand = new Random ();
 		Scanner sc = new Scanner(System.in); 
 		
-		
-		
-
-		nombreAleatoir = rand.nextInt(100);
+		int borneSupp = 100;
+		int borneInf = 0;
+		int essais = 0;
+		boolean trouve = false;
+		nombreAleatoir = rand.nextInt(101);
 	
 		 do {
-			 System.out.println("veuillez saisir un nombre");
-			 nombre = sc.nextInt();
-			
+			 System.out.println("veuillez saisir un nombre entre "+borneSupp+" et "+borneInf);
+			 nombre = sc.nextInt();	
+			// System.out.println(essais++);
+		 
+			 if (nombre > nombreAleatoir){
+				 borneSupp = nombre;
+				// System.out.println("félicitation "+nombre+" est le bon nombre");
 
-			 if (nombre == nombreAleatoir){
-				 System.out.println("félicitation "+nombre+" est le bon nombre");
-
-			 } else if((nombre - nombreAleatoir) <= 15 && (nombre - nombreAleatoir >= -15)) {
-				 System.out.println("votre fourchette est de (15 +-");
-
-			 } else if((nombre - nombreAleatoir <= 25) && (nombre - nombreAleatoir >= -25)){
-				 System.out.println("votre fourchette est de (25 +-");
-
-
-			 } else if((nombre - nombreAleatoir <= 50) &&  (nombre - nombreAleatoir >= -50)) {
-
-				 System.out.println("votre fourchette est de (50 +-)") ;
-
-			 } else {
-				 System.out.println("Votre nombre est au dessus de (50 +-)");
+				 
+			 } 
+			 else if(nombre < nombreAleatoir){
+				 borneInf = nombre;
+				 	 
+				// System.out.println("votre fourchette est de " + nombre+ " à 100");
 			 }
-
-		 }while( nombreAleatoir != nombre);
+			 else { 
+				 
+				 System.out.println("bravo vous avez trouvé le nombre recherché est de "+nombre);
+				 System.out.println("avec " +essais+ " essais");
+				 trouve = true;
+				
+			 	
+			 }
+			 essais++;
+		 }
+			  while(trouve == false);
+			
+			System.out.println("jeux terminé");
+			
+		 
 		
 		sc.close();
 
