@@ -24,7 +24,8 @@ public class conversion2 {
 		for (int i = 0; i< index; i++) {
 			String valeur= tableauDeConversion[ i ];
 			convertirUneValeur(valeur);
-		} System.out.println( "Programme termine."); sc.close();
+		} System.out.println( "Programme termine."); 
+		sc.close();
 	}// fin du main
 	public static void convertirUneValeur( String valeur)
 	{

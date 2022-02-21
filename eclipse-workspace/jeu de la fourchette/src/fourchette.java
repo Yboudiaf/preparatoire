@@ -7,14 +7,16 @@ public class fourchette {
 		// TODO Auto-generated method stub
 		int nombre=0;
 		int nombreAleatoir;
-
-		Random rand = new Random ();
-		Scanner sc = new Scanner(System.in); 
-		
 		int borneSupp = 100;
 		int borneInf = 0;
 		int essais = 0;
 		boolean trouve = false;
+		
+
+		Random rand = new Random ();
+		Scanner sc = new Scanner(System.in); 
+		
+		
 		nombreAleatoir = rand.nextInt(101);
 	
 		 do {
@@ -35,7 +37,7 @@ public class fourchette {
 			 }
 			 else { 
 				 
-				 System.out.println("bravo vous avez trouvé le nombre recherché est de "+nombre);
+				 System.out.println("bravo vous avez trouvé le nombre recherché c'est bien "+nombre);
 				 System.out.println("avec " +essais+ " essais");
 				 trouve = true;
 				

@@ -19,18 +19,15 @@ public class Barnabe {
 			sommeDiviseur = sommeDiviseur /2;
 			sommeDiviseur --;
 			nbMagasins++;
-			System.out.println("Il reste "+sommeDiviseur+"€ a Barnabé après ses achats dans le " + nbMagasins + " magasin");
+			System.out.println("Il reste "+sommeDiviseur+"€ a barnabé après ses achats dans le " + nbMagasins + " magasin");
 			
 		}while(sommeDiviseur > 2 );
-		System.out.println("barnabé a fait "+ nbMagasins+" magasins");
+		System.out.println("barnabé  a fait "+ nbMagasins+" magasins");
 		
 		
 	
-		sc.close();
+		sc.close();	
 			
-		
-		
-		
 	}//fin de mai	
 
 }//fin de classe
