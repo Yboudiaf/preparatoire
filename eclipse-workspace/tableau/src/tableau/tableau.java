@@ -21,6 +21,22 @@ public class tableau {
             monTableau[i]=monTableau[i]+"s";
             System.out.println(monTableau[i] + monTableau[i].length());
         }
+        ////////////////////////////////////////////q
+        float [] yac = new float[5];
+        yac [0]=1;
+        yac [1]=10;
+        yac [2]=11;
+        yac [3]=100;
+        yac [4]=101;
+        
+        float sommeYac = 0;
+        for (int i = 0; i < yac.length; i++) {
+        	sommeYac+= yac[i];
+        }
+        System.out.println();
+        System.out.println(sommeYac/yac.length);
+        
+        
         
         
 	}
