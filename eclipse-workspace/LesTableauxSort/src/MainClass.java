@@ -11,7 +11,7 @@ public class MainClass {
 		int nbJeunes = 0;
 		int nbVieux = 0;
 		int nbVingt=20;
-		int[] tableau = new int[5];
+		int[] tableau = new int[20];
 		Scanner sc =new Scanner(System.in);
 		System.out.println("Veuillez entrez 20 nombres");
 		for (int compteur = 0; compteur < tableau.length; compteur++) {
@@ -28,12 +28,14 @@ public class MainClass {
 		}
 		else if(nbJeunes==tableau.length) {
 			System.out.println("TOUTES LES PERSONNES ONT MOINS DE 20 ANS");
-		
 		}
-		else if((nbVieux == nbVingt)&&(nbJeunes == nbVingt)) {
+		else if((nbVieux == 0)&&(nbJeunes == 0)) {
 			System.out.println("TOUTES LES PERSONNES ONT 20 ANS");
 		}
-		System.out.println("il y'a " + nbJeunes + " personnes de - de 20 ans et "+nbVieux+" personnes de + de 20 ans");
+		else {
+			System.out.println("il y'a " + nbJeunes + " personnes de - de 20 ans et "+nbVieux+" personnes de + de 20 ans");
+		}
+		
 		
 		//Arrays.sort(tableau);
 		sc.close();
