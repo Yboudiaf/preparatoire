@@ -10,8 +10,8 @@ public class MainClass {
 		// TODO Auto-generated method stub
 		int nbJeunes = 0;
 		int nbVieux = 0;
-		int nbVingt=20;
-		int[] tableau = new int[20];
+		int nbVingt =0;
+		int[] tableau = new int[4];
 		Scanner sc =new Scanner(System.in);
 		System.out.println("Veuillez entrez 20 nombres");
 		for (int compteur = 0; compteur < tableau.length; compteur++) {
@@ -20,6 +20,8 @@ public class MainClass {
 				nbJeunes++;
 			}else if(tableau[compteur] > 20){
 				nbVieux++;
+			}else if(tableau[compteur]== 20){
+				nbVingt++;
 			}
 		}
 		
@@ -33,7 +35,7 @@ public class MainClass {
 			System.out.println("TOUTES LES PERSONNES ONT 20 ANS");
 		}
 		else {
-			System.out.println("il y'a " + nbJeunes + " personnes de - de 20 ans et "+nbVieux+" personnes de + de 20 ans");
+			System.out.println("il y'a " + nbJeunes + " personnes de - de 20 ans et "+nbVieux +" personnes de + de 20 ans et "+ nbVingt+" personnes qui ont 20 ans");
 		}
 		
 		
