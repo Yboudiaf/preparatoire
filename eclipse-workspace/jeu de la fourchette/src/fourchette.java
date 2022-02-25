@@ -20,7 +20,7 @@ public class fourchette {
 		nombreAleatoir = rand.nextInt(101);
 	
 		 do {
-			 System.out.println("veuillez saisir un nombre entre "+borneSupp+" et "+borneInf);
+			 System.out.println("veuillez saisir un nombre entre "+borneInf+" et "+borneSupp);
 			 nombre = sc.nextInt();	
 			// System.out.println(essais++);
 		 
