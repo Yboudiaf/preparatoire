@@ -13,29 +13,35 @@ public class rechercherUNombreDansUnTableaux {
 
 	public static void main(String[] args) {
 		int nbUtilisateur=0;
+		//creation de tableaux
 		int [] tableaux = new int [10];
 
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("veuillez entrer 10 nombres");
+		//lire les données du tableau
 		for(int compteur = 0;compteur < tableaux.length;compteur++) {
+			//recuperation des valeur une ou plusieurs valeurs
 			tableaux[compteur]=sc.nextInt();
-			
-			}for (int i = 0; i < tableaux.length; i++) {
-				if(tableaux[i]==0) {
-					System.out.println(i);
-				}
-				
-				
-			
-
-
-
 
 		}
+		//ecrit les données selon (if)
+		for (int i = 0; i < tableaux.length; i++) {
+			if(tableaux[i]==20) {
+				System.out.println(i);
+			}
+		}
+
+
+
+
 
 
 
 	}
 
+
+
 }
+
+

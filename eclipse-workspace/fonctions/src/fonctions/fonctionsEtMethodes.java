@@ -5,7 +5,7 @@ public class fonctionsEtMethodes {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int ageATester =18;	
+		int ageATester =17;	
 		
 		String resultat = majeurOuMineur(ageATester);
 		System.out.println(resultat);
