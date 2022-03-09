@@ -11,29 +11,51 @@ Proposez un jeu d'essai prévoyant les 3 cas suivants :
 ▪ La phrase est vide
 ▪ La lettre n'est pas présente
 ▪ La lettre est présente plusieurs fois
-*/
+ */
 public class trouverUneLettreDansUnEChaineDeCharactere {
 
 	public static void main(String[] args) {
 
-		String [] tab = {"SuQi,btissam,yacine,rodolf"};
+		String [] tab = {"SuQi","btissam","yacine","rodolf"};
 		String saisieUtilisateur ;
-		
+
 		Scanner sc = new Scanner(System.in);
-		System.out.println("veuillez saisir un charactere");
-		
-		for(int i = 0; i < tab.length; i++) {
-			saisieUtilisateur= sc.next();
-			tab = saisieUtilisateur.toLowerCase().split(" ");
+		do {
+			System.out.println("veuillez saisir un caractere");
 			
-			if( saisieUtilisateur.equals(saisieUtilisateur)) {
-				System.out.println(i);
-			}else {
+			saisieUtilisateur= sc.nextLine();
+		} while (saisieUtilisateur.length() != 1);
+		String saisieAComparer;
+		int i, j;
+		i = 0;
+		boolean finded = false;
+		/*
+		saisieUtilisateur.trim().toLowerCase().split(" ");
+
+		if( saisieUtilisateur.equals(tab[i])) {
+			System.out.println("ici "+saisieUtilisateur);
+		}else
+		{
 			System.out.println("votre lettre rechercher n'est pas dans le tableaux");
+
+		}*/
+		while (!finded && i<tab.length) {
+			saisieAComparer = tab[i];
+			j=0;
+			while(!finded && j < saisieAComparer.length()) {
+				char temporaire = saisieAComparer.charAt(j);
+				if (temporaire == saisieUtilisateur.charAt(0)) {
+					finded = true;
+				}
+				j++;
+			}
+			i++;
 			
 		}
-		}
-		
+		System.out.println((finded ? "Trouvé" : "Non trouvé"));
+
 	}
+	
+	
 
 }
