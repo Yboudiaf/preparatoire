@@ -8,7 +8,7 @@ public class essaieSplit {
 		String [] monTableau;
 		
 		phrase ="mais où et donc or ni car" ;
-		monTableau =phrase.split(" ");
+		monTableau = phrase.split(" ");
 		 
 		System.out.println(phrase);
 		
