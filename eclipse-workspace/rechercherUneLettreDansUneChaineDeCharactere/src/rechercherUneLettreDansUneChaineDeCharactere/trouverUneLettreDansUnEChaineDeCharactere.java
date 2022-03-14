@@ -16,8 +16,9 @@ public class trouverUneLettreDansUnEChaineDeCharactere {
 
 	public static void main(String[] args) {
 
-		String [] tab = {"SuQi","btissam","yacine","rodolf"};
-		String saisieUtilisateur ;
+		String[] tab = {"SuQi","btissam","yacine","rodolf"};
+		
+		/*String saisieUtilisateur ;
 
 		Scanner sc = new Scanner(System.in);
 		do {
@@ -29,16 +30,6 @@ public class trouverUneLettreDansUnEChaineDeCharactere {
 		int i, j;
 		i = 0;
 		boolean finded = false;
-		/*
-		saisieUtilisateur.trim().toLowerCase().split(" ");
-
-		if( saisieUtilisateur.equals(tab[i])) {
-			System.out.println("ici "+saisieUtilisateur);
-		}else
-		{
-			System.out.println("votre lettre rechercher n'est pas dans le tableaux");
-
-		}*/
 		while (!finded && i<tab.length) {
 			saisieAComparer = tab[i];
 			j=0;
@@ -52,10 +43,17 @@ public class trouverUneLettreDansUnEChaineDeCharactere {
 			i++;
 			
 		}
-		System.out.println((finded ? "Trouvé" : "Non trouvé"));
-
+		System.out.println((finded ? "Trouvé" : "Non trouvé"));*/
+		exercice32RechercheDeLettreDansUnTableaux.parcourir(tab);
+		System.out.println(tab[2]);
+		//exercice32RechercheDeLettreDansUnTableaux.
+		//parcourirSecondTableau();
 	}
 	
+	public static void parcourirSecondTableau() {
+		String [] tab11  = {"55","18","4"};
+		exercice32RechercheDeLettreDansUnTableaux.parcourir(tab11);
+	}
 	
 
 }
