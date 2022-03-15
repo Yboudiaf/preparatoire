@@ -1,4 +1,4 @@
-package rechercherUnNombreDansUnTableaux;
+
 
 import java.util.Iterator;
 import java.util.Scanner;
@@ -15,7 +15,7 @@ public class rechercherUNombreDansUnTableaux {
 		int nbUtilisateur=0;
 		//creation de tableaux
 		int [] tableaux = new int [10];
-
+		int nombreRechercher = 0;
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("veuillez entrer 10 nombres");
@@ -23,25 +23,28 @@ public class rechercherUNombreDansUnTableaux {
 		for(int compteur = 0;compteur < tableaux.length;compteur++) {
 			//recuperation des valeur une ou plusieurs valeurs
 			tableaux[compteur]=sc.nextInt();
-
+			System.out.println(tableaux[compteur]);
 		}
-		//ecrit les données selon (if)
+		System.out.println("quelle nombre rechercher vous?");
+
+		nbUtilisateur = sc.nextInt();
+
+		
+		
 		for (int i = 0; i < tableaux.length; i++) {
-			if(tableaux[i]==20) {
-				System.out.println(i);
-			}
+			if(nbUtilisateur == tableaux[i]){
+				System.out.println("le nombre rechercher "+nbUtilisateur+" est bien dans la liste");
+				
+			}else 
+				System.out.println(" non trouvé");
+			
+		
+			
+
 		}
-
-
-
-
-
 
 
 	}
-
-
-
 }
 
 

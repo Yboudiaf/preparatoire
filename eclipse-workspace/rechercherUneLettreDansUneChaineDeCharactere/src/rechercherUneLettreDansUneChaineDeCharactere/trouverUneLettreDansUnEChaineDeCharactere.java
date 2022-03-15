@@ -16,7 +16,8 @@ public class trouverUneLettreDansUnEChaineDeCharactere {
 
 	public static void main(String[] args) {
 
-		String[] tab = {"SuQi","btissam","yacine","rodolf"};
+		String[] tab = {"50","7","01","21","18","4","7"};
+		int[] tableaux = {5,70,1,28,4,7};
 		
 		/*String saisieUtilisateur ;
 
@@ -44,16 +45,15 @@ public class trouverUneLettreDansUnEChaineDeCharactere {
 			
 		}
 		System.out.println((finded ? "Trouvé" : "Non trouvé"));*/
-		exercice32RechercheDeLettreDansUnTableaux.parcourir(tab);
-		System.out.println(tab[2]);
+		//exercice32RechercheDeLettreDansUnTableaux.parcourir(tab);
+		//System.out.println(tab[2]);
+		exercice32RechercheDeLettreDansUnTableaux.ordreCroissantArraysSort(tableaux);
+		for(int i = 0 ;i < tableaux.length;i++) 
+		System.out.println(tableaux[i]);
 		//exercice32RechercheDeLettreDansUnTableaux.
 		//parcourirSecondTableau();
 	}
 	
-	public static void parcourirSecondTableau() {
-		String [] tab11  = {"55","18","4"};
-		exercice32RechercheDeLettreDansUnTableaux.parcourir(tab11);
-	}
 	
-
+	
 }
