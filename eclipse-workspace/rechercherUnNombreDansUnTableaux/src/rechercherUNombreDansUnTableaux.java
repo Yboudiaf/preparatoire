@@ -23,25 +23,21 @@ public class rechercherUNombreDansUnTableaux {
 		for(int compteur = 0;compteur < tableaux.length;compteur++) {
 			//recuperation des valeur une ou plusieurs valeurs
 			tableaux[compteur]=sc.nextInt();
-			System.out.println(tableaux[compteur]);
+			//System.out.println(tableaux[compteur]);
 		}
 		System.out.println("quelle nombre rechercher vous?");
 
 		nbUtilisateur = sc.nextInt();
-
-		
-		
+		boolean estTrouve = false;
 		for (int i = 0; i < tableaux.length; i++) {
 			if(nbUtilisateur == tableaux[i]){
-				System.out.println("le nombre rechercher "+nbUtilisateur+" est bien dans la liste");
-				
-			}else 
-				System.out.println(" non trouvé");
-			
-		
-			
+				System.out.println("le nombre rechercher "+nbUtilisateur+" est bien dans la liste à l'indice " + i);
+				estTrouve = true;
+			}			
 
 		}
+		if (!estTrouve)
+			System.out.println("Non trouvé");
 
 
 	}
