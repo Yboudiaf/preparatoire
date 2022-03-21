@@ -8,14 +8,13 @@ public class jalon3 {
 		// TODO Auto-generated method stub
 		String motDePasse = "bonjour";
 		int essais = 0;
-		int finDessai = 3;
 		String reponse;
 		Scanner sc = new Scanner(System.in);
 		
 
 		do {System.out.println("veuillez indiquer votre mot de passe");
 
-			motDePasse= sc.next();
+			motDePasse= sc.nextLine();
 			if (!motDePasse.equals("bonjour")) {
 				System.out.println("Mdp incorrect");
 			}
@@ -27,7 +26,7 @@ public class jalon3 {
 			if(essais>=3) {
 				System.out.println("echec de l'authentification");
 				System.out.println("quelle la reponse secrete");
-				reponse = sc.next();
+				reponse = sc.nextLine();
 				//si reponse est differente de formation; enleve les espaces;egalité parfaite de la chaine de charactere.   
 				if(!reponse.toLowerCase().trim().equals("formation")) {
 

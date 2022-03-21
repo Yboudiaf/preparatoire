@@ -25,7 +25,7 @@ public class diferentRetraiter {
 		
 		if(age < 60 && age > 0 ){
 			 anneeDeRetraite = (60 - age  ) ;
-			return "Il vous reste " + anneeDeRetraite+ " ans pour arriver à la retraite";
+			return String.format("Il vous reste %d ans pour arriver à la retraite",anneeDeRetraite);
 			
 			
 		}	
@@ -36,7 +36,7 @@ public class diferentRetraiter {
 		else if (age > 60)
 		{
 			anneeDeRetraite = (age - 60);
-			return "Vous êtes à la retraite depuis " + anneeDeRetraite  + " ans";
+			return String.format("Vous êtes à la retraite depuis %d ans",anneeDeRetraite);
 				
 		}
 			else {

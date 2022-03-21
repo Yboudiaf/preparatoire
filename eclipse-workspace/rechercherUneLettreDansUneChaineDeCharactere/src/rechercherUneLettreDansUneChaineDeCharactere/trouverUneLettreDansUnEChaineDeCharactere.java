@@ -16,10 +16,10 @@ public class trouverUneLettreDansUnEChaineDeCharactere {
 
 	public static void main(String[] args) {
 
-		String[] tab = {"50","7","01","21","18","4","7"};
+		String[] tab = {"5","7","01","21","18","4","7"};
 		int[] tableaux = {5,70,1,28,4,7};
 		
-		/*String saisieUtilisateur ;
+		String saisieUtilisateur ;
 
 		Scanner sc = new Scanner(System.in);
 		do {
@@ -44,14 +44,14 @@ public class trouverUneLettreDansUnEChaineDeCharactere {
 			i++;
 			
 		}
-		System.out.println((finded ? "Trouvé" : "Non trouvé"));*/
-		//exercice32RechercheDeLettreDansUnTableaux.parcourir(tab);
-		//System.out.println(tab[2]);
+		System.out.println((finded ? "Trouvé" : "Non trouvé"));
+		exercice32RechercheDeLettreDansUnTableaux.parcourir(tab);
+		System.out.println(tab[2]);
 		exercice32RechercheDeLettreDansUnTableaux.ordreCroissantArraysSort(tableaux);
-		for(int i = 0 ;i < tableaux.length;i++) 
-		System.out.println(tableaux[i]);
-		//exercice32RechercheDeLettreDansUnTableaux.
-		//parcourirSecondTableau();
+		for(int i1 = 0 ;i1 < tableaux.length;i1++) 
+		System.out.println(tableaux[i1]);
+		
+		
 	}
 	
 	
