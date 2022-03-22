@@ -8,7 +8,7 @@ public class Animal {
 	public void setEspece(String nouvelleEspece) {
 		this.espece = nouvelleEspece;
 	}
-}
+	}
 	
 
 
