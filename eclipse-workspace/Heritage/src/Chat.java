@@ -34,31 +34,31 @@ public class Chat extends Animal {
 					System.out.println("vous êtes un chat d'une valeur innestimable");
 				}
 				else if(prenom.equals("mathieu")){
-					System.out.println("salut mathieu tu peux rentrer passe par deriere ");
+					System.out.println("salut mathieu  ");
 				}
 				else if(prenom.equals("véronique")){
-					System.out.println("salut véronique soirée entre mec pas possible désoler");
+					System.out.println("salut véronique ");
 				}
 				else if(prenom.equals("raphi")){
-					System.out.println("salut raphi courage c'est presque l'heure");
+					System.out.println("salut raphi ");
 				}
 				else if(prenom.equals("anani")){
-					System.out.println("salut ananis tu peux rentrer mais que si tu as mis ton chapeau^^");
+					System.out.println("salut ananis");
 				}
 				else if(prenom.equals("nico")){
-					System.out.println("salut nico tu peux rentrer enleve ton cask");
+					System.out.println("salut nico ");
 				}
 				else if(prenom.equals("gerard")){
-					System.out.println("salut gerard tu peux rentrer si tu enleve ta barbe");
+					System.out.println("salut gerard ");
 				}
 				else if(prenom.equals("julian")){
-					System.out.println("salut julian pose ton telephone stp merci u_u");
+					System.out.println("salut julian ");
 				}
 				else if(prenom.equals("willy")){
-					System.out.println("salut willy l'ourson tu peux rentrer mais tu dors pas ^^");
+					System.out.println("salut willy ");
 				}
-				else if(prenom.equals("modulo")){
-					System.out.println("salut modulos tu peux rentrer tes VIP");
+				else if(prenom.equals("rody")){
+					System.out.println("salut rody");
 				}
 			}
 				

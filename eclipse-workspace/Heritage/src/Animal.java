@@ -8,7 +8,13 @@ public class Animal {
 	public void setEspece(String nouvelleEspece) {
 		this.espece = nouvelleEspece;
 	}
+	
+		public void direBonjour() {
+			System.out.println("Bonjour je suis Yacine");
+		}
 	}
+	
+	
 	
 
 
