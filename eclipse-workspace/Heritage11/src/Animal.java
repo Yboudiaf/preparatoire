@@ -14,6 +14,7 @@ public class Animal {
 		this.setEspece(_espece);
 	}
 	
+
 	public void manger() 
 	{
 		System.out.println("L'animal mange ! ");
@@ -22,6 +23,10 @@ public class Animal {
 	public String getEspece() 
 	{
 		return this.espece.toUpperCase();
+	}
+	public void getMarcher() {
+		System.out.println("et marche de 10 pas");
+		return;
 	}
 	
 	public void setEspece(String nouvelleEspece) 
