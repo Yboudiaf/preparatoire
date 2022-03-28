@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Chien extends Animal{
 	
@@ -7,17 +8,28 @@ public class Chien extends Animal{
 
 	public void manger() {
 		super.manger();
-		System.out.println("le chien mange du pathé");		
+		System.out.println("du pathé");		
 	}
 	public void aboyer() {
 		
-		System.out.println("Le chien aboie ! ");	
+		System.out.println("et aboie ! ");	
 		
 	}
 	public void marcher() {
 		this.marcher();
 	}
-	
+	public void pathe() {
+		Scanner sc = new Scanner(System.in);
+
+		String pathe;
+		System.out.println("le chien tina a faim voulez vous lui donner du pathe a manger ?");
+		pathe = sc.nextLine();
+		if(pathe.equals("oui")) {
+			System.out.println("merci miam miam");
+		}else {
+			System.out.println("Alors je vais vous mordre !!");
+		}
+	}
 
 }
 

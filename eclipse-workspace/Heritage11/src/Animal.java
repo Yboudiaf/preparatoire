@@ -17,7 +17,7 @@ public class Animal {
 
 	public void manger() 
 	{
-		System.out.println("L'animal mange ! ");
+		System.out.println("L'animal mange ");
 	}
 	
 	public String getEspece() 

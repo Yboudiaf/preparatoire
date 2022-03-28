@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Taupe extends Animal
 {
@@ -6,6 +7,18 @@ public class Taupe extends Animal
 	}
 	public void manger() {
 			super.manger();
-			System.out.println("la Taupe mange les lesgumes du potager");
+			System.out.println("les lesgumes du potager");
 	}
+	public void patate() {
+	Scanner sc = new Scanner(System.in);
+	
+	String patate;
+	System.out.println("le taupe a faim voulez vous lui donner des patates a manger ?");
+	patate = sc.nextLine();
+	if(patate.equals("oui")) {
+		System.out.println("merci miam miam");
+	}else {
+		System.out.println("Alors je vais vous détruire votre potager !!");
+	}
+}
 }
