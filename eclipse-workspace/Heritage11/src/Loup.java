@@ -20,7 +20,7 @@ public class Loup extends Animal
 		System.out.println("le loup blanc a faim voulez vous lui donner une brebis a manger ?");
 		brebis = sc.nextLine();
 		if(brebis.equals("oui")) {
-			System.out.println("merci miam miam");
+			System.out.println("merci aouhhh aouhhh");
 		}else {
 			System.out.println("Alors je vais vous mangez !!");
 		}

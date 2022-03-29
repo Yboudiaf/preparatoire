@@ -22,7 +22,7 @@ public class Chat extends Animal {
 		System.out.println("le chat garfield a faim voulez vous lui donner des croquettes a manger ?");
 		croquette = sc.nextLine();
 		if(croquette.equals("oui")) {
-			System.out.println("merci miam miam");
+			System.out.println("merci miaouh miaaouh");
 		}else {
 			System.out.println("Alors je vais vous griffer !!");
 		}

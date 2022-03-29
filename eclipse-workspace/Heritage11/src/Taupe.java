@@ -7,7 +7,7 @@ public class Taupe extends Animal
 	}
 	public void manger() {
 			super.manger();
-			System.out.println("les lesgumes du potager");
+			System.out.println("les legumes du potager");
 	}
 	public void patate() {
 	Scanner sc = new Scanner(System.in);

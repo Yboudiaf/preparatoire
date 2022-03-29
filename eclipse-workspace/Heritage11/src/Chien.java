@@ -12,7 +12,7 @@ public class Chien extends Animal{
 	}
 	public void aboyer() {
 		
-		System.out.println("et aboie ! ");	
+		System.out.println("et aboie !");	
 		
 	}
 	public void marcher() {
@@ -25,7 +25,7 @@ public class Chien extends Animal{
 		System.out.println("le chien tina a faim voulez vous lui donner du pathe a manger ?");
 		pathe = sc.nextLine();
 		if(pathe.equals("oui")) {
-			System.out.println("merci miam miam");
+			System.out.println("merci ouaf ouaf");
 		}else {
 			System.out.println("Alors je vais vous mordre !!");
 		}
