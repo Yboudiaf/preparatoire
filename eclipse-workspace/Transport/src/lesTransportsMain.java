@@ -7,11 +7,15 @@ public class lesTransportsMain {
 		String avion;
 		String voiture;	
 		
+		
+		
 		Terrestre charAssaut = new Terrestre();
 		charAssaut.roue();
+		System.out.println("");
 		
 		Aerien chasseur = new Aerien();
 		chasseur.roue();
+		System.out.println("");
 		
 		Maritime yacht = new Maritime();
 		yacht.roue();
