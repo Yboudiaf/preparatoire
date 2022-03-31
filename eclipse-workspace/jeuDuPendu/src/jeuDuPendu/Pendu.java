@@ -36,10 +36,20 @@ public class Pendu {
 		System.out.println(String.copyValueOf(tiret));
 		
 		
+		// ON RECUPERE UN CARACTERE 
 		do {
 			trouver=sc.nextLine().trim().toLowerCase();
-		} while (!trouver.matches("^[a-z]$"));
+			
+		}while (!trouver.matches("^[a-z]$"));
+		lettre = trouver.charAt(0);
+		for(int i = 1; i <=mot5charactere.length();i++) {
+			if(lettre == i) {
+				System.out.println(i);
+			}
+			
+		}
 		
+
 		
 		/*do {
 			for(int i =1 ; i <= mot5charactere.length()-1;i++) {
