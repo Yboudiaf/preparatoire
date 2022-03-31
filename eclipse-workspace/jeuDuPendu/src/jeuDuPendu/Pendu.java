@@ -17,32 +17,55 @@ public class Pendu {
 		
 		String mot5charactere;
 		String trouver ;
-		byte essaie;
+		byte essaie=0;
 		char tiret[];
 		boolean gagner = false;
 		int lettreMaximum=6;
-		
+		char lettre;
 		
 		do {
 			System.out.println("veuillez saisir un mot de 5 charactere minimum");
-		mot5charactere=sc.nextLine();
+		mot5charactere = sc.nextLine().toLowerCase();
 		}while(mot5charactere.length()<5);
 		
-		 tiret = mot5charactere.toCharArray();
+		
+		tiret = mot5charactere.toCharArray();
+		 for (int i = 1 ; i <= mot5charactere.length()-2;i++) {
+			 tiret[i] = '-';
+		 }
+		System.out.println(String.copyValueOf(tiret));
+		
 		
 		do {
-			for(int i =1;i < mot5charactere.length()-1;i++) {
-				tiret[i]= "-";
+			trouver=sc.nextLine().trim().toLowerCase();
+		} while (!trouver.matches("^[a-z]$"));
+		
+		
+		/*do {
+			for(int i =1 ; i <= mot5charactere.length()-1;i++) {
+				tiret[i]= mot5charactere.charAt(i);
 				
+				trouver = sc.next();
+				if()
+				if(trouver.equals([1])) {
+					System.out.println(trouver);
+				
+					
+				}else if(! trouver.equals(trouver)) {
+					i++;
+					
+					
+				}
 				if(i==mot5charactere.length()) {
 					
-					System.out.println(mot5charactere);
+					System.out.println(i);
 				}else {
 					System.out.println(tiret);
 				}
+				essaie++;
+				System.out.println(essaie);
 			}
-			
-		}while(mot5charactere.length()<=mot5charactere.length()-1);
+		}while(mot5charactere.length()<=mot5charactere.length()-1);*/
 		
 		
 		
