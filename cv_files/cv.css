@@ -1,0 +1,191 @@
+body,html{
+ background:linear-gradient(rgb(240, 227, 229),rgb(241, 241, 217));
+ background-repeat: no-repeat;
+ background-color: rgb(243, 194, 224);
+ color: red;
+
+    }
+
+h1{
+    position: absolute;
+    color:gold ;
+    font-family: sans-serif;
+    font-size: 60px;
+    top: 120px;
+    left: 400px;
+    text-align: center;
+    text-shadow: -2px 2px 10px red; 
+    
+}
+
+
+.container{
+    position: absolute;
+    width: 450px;
+    height: 350px;
+    top: 100px;
+    left: 260px;
+    transform: translate(-50%,-50%);
+
+   
+}
+.lacarte{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform:all 0.5s ease;
+}
+.lacarte:hover{
+    transform: rotateY(180deg);
+}
+
+.algerie{
+    
+    font-variant: small-caps;
+    font-family: sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url(https://www.sunlocation.com/images/theme/location-vacances-sud.jpg) ;
+ 
+    width: 100%;
+    color: #fff;
+   
+    border-radius: 20px;
+    font-size: 30px;
+    text-shadow: -2px 2px 10px red;
+    color: rgb(218, 215, 226);
+
+}
+
+.paradize{
+
+    font-variant: small-caps;
+    font-family: sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.generationvoyage.fr/2019/07/visiter-tipaza-630x420.jpg);
+    
+    width: 100%;
+    backface-visibility: hidden;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 30px;
+    transform:rotateY(180deg);
+    text-shadow: -2px 2px 10px green;
+    color: rgb(233, 195, 201);
+
+}
+
+h3{
+    position: absolute;
+    right:40px;
+    top: 10px;
+    color: salmon;
+}
+.observer{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: plum;
+    background-color: cornsilk;
+    border: solid black;
+}
+.reproduire{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    background-color: cornsilk;
+    border: solid black;
+}
+.innover{
+    font-family:sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: royalblue;
+    background-color: cornsilk;
+    border: solid black;
+
+}
+h4{
+    
+    color: black ;
+    box-shadow: -2px 2px 20px white;
+    font-family: sans-serif;
+    left: 25px;
+    position: absolute;
+    top: 400px;
+    font-size: 30px;
+    border: dotted red;
+    border-radius: 20px;
+    width: 95%;
+    background-color: rgb(232, 233, 217);
+}
+p{
+    font-size: 20px;
+    color: blue;
+    margin-left: 20px;
+}
+h5{
+    border-style: dotted;
+    border:dotted red;
+   color: black;
+    box-shadow: -2px 2px 20px white;
+    font-family: sans-serif;
+    left: 25px;
+    position: absolute;
+    top: 800px;
+    font-size:30px ;
+    border-radius: 20px;
+    width: 95%;
+    
+    background-color:rgb(232, 233, 217) ;
+}
+h6{
+   color: black;
+    box-shadow:-2px 2px 20px white;
+    font-family: sans-serif;
+    left: 25px;
+    position: absolute;
+    top: 1020px;
+    font-size:30px ;
+    width: 95%;
+    border: dotted red;
+    border-radius: 20px;
+    background-color:rgb(232, 233, 217) ; 
+   
+}
+label{
+   font-size: 30px;
+   color: white;
+
+}
+.contenu-footer{
+   background-color: white;
+    border: solid white;
+   
+}  
+.listes-horaires{
+    box-shadow: rgb(102, 176, 194);
+    background-color: rgb(204, 204, 216);
+    box-sizing: border-box;
+    border: solid 3px 3px 10px 10px;
+    color: blue;
+    border-radius: 20px;
+}
+.bloc-footer-services{
+    box-shadow: rgb(102, 176, 194);
+    background-color: rgb(204, 204, 216);
+    box-sizing: border-box;
+    border: solid 3px 3px 10px 10px;
+    color: blue;
+    border-radius: 20px;
+}
+strong{
+color: red;
+}
